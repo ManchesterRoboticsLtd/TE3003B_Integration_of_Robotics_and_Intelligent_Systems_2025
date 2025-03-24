@@ -14,48 +14,6 @@
 # TE3003B Week 1: Introductory session.
 ---
  
-  ### Week 1: Dynamical Systems
-  This week will introduce the teaching team and the basics of dynamical systems.
-  #### Session:
-  * Course Introduction.
-  *	Dynamical Systems.
-  *	State space representations.
-  *	Linear and Nonlinear systems.
-  *	Discrete Time Systems.
-
-  
-  **Mini challenge:** 
-  *	Model a nonlinear system in State Space using ROS and visualise it using RVIZ.
-
-  **Requirements:** Computer with access to Zoom, Ubuntu 18.04 and ROS Melodic Installed (Full installation).
-
-
----
-## Youtube Videos
-
-[Class Videos Playlist](https://www.youtube.com/playlist?list=PLqCuMQTwnIP99CrzdPEroGhdAhzVfvWgR)
-
----
-## Puzzlebot Manual
-
-[Puzzlebot Jetson Edition Instruction Manual](https://github.com/ManchesterRoboticsLtd/Puzzlebot-information/tree/main/Puzzlebot/Puzzlebot%20Learning%20Kits/Puzzlebot%20Jetson%20Edition)
-
----
-
-## Ubuntu installation for MAC
- * If the computer has an Intel processor, it is possible to use  VMWare Fusion Player V12 onwards.
- * If the computer has an M! or M2 processor, the hypervisor UTM to execute the ubuntu server 22.04 ARM, this version has no GUI, so Ubuntu Desktop must be installed manually
-    (sudo apt install ubuntu-desktop)
-   Use the following links:
-   
-   [Link 1](https://www.youtube.com/watch?v=O19mv1pe76M)
-   
-   [Link 2](https://www.youtube.com/watch?v=-XFNUeWhsIQ)
-   
- * Another way for M1/M2 processors is to use Parallels Desktop (Paid).
-
----
-
 ### Useful Links: 
 
 #### Dynamical Systems
@@ -74,12 +32,6 @@
  * [ROS TF2 Package](http://wiki.ros.org/tf2)
  * [ROS TF2 Tutorials](http://wiki.ros.org/tf2/Tutorials)
  * [ROS Transforms](http://wiki.ros.org/tf2/Tutorials/Introduction%20to%20tf2)
- * [ROS Installation](http://wiki.ros.org/noetic/Installation/Ubuntu)
- * [ROS book](https://www.cse.sc.edu/~jokane/agitr/)
- * [ROS Packages](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
- * [ROS Workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
- * [Publisher and Subscribers](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
- * [Roslaunch](http://wiki.ros.org/roslaunch)
  ---
 
  #### Virtual Machine (Google Drive): 
