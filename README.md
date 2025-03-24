@@ -78,24 +78,17 @@ General requirements. Please be aware that a set of requirements especific for e
   **Mini challenge:** 
   *	Model a Puzzlebot in ROS 2 and visualise it using RVIZ.
 
-  **Requirements:** Computer with access to Zoom, Ubuntu 18.04 and ROS Melodic Installed (Full installation).
   
   ### Week 2: Mobile Robots – Fundamentals
   This week will introduce a review of mobile robotics.
   #### Session:
-  *	Introduction to mobile robotics.
   *	Kinematics for a differential drive mobile robot.
-  *	Proprioceptive and exteroceptive sensors.
   *	Dead Reckoning (Encoder-based localisation)
   *	Point-to-point navigation.
 
   **Mini challenge:** 
   *	Model the kinematic model of the Puzzlebot in ROS and Visualise it in RVIZ.
   *	Move the robot using a point-to-point navigation strategy.
-
-
-  **Requirements:** Computer with access to Zoom, Ubuntu 20.04 or 18.04 and ROS Noetic or Melodic Installed (Full installation), respectively.
-
 
 
   ### Week 3: Probabilities in Robotics
@@ -109,8 +102,6 @@ General requirements. Please be aware that a set of requirements especific for e
   **Mini challenge:**: 
   * Multi-robot plotting in ROS 2
   
-  **Requirements:** Requirements of Session 1.
-
 
   
   ### Week 4: Uncertainty in mobile robotics
@@ -129,7 +120,6 @@ General requirements. Please be aware that a set of requirements especific for e
 
   *	Plot the confidence ellipsoid of a mobile robot. Use the multiple-point navigation.
     
-  **Requirements:** Requirements of Session 1 and Session 3.
 
 
   ### Week 5: Reactive navigation
@@ -144,7 +134,6 @@ General requirements. Please be aware that a set of requirements especific for e
   **Mini challenge:**: 
   * Implementation of obstacle avoidance algorithms Bug 0 and Bug 2 in simulation (Gazebo) and with the real robot.
   
-  **Requirements:** Requirements of Session 1.
 
   ### Week 6: Sources of information
   This week the concept of Kalman filter will be introduced.
@@ -158,8 +147,6 @@ General requirements. Please be aware that a set of requirements especific for e
   * Implementation of obstacle avoidance algorithms Bug 0 and Bug 2 in simulation (Gazebo) and with the real robot.
 
   
-  **Requirements:** Requirements of Session 1.
-
 
   ### Week 7: Final Challenge
   This week the Final Challenge will be presented.
