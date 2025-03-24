@@ -11,6 +11,7 @@
 </picture>
 
 ---
+---
 # TE3003B: Integration of Robotics and Intelligent Systems
 
   ## Introduction
@@ -24,52 +25,58 @@
 ## General Information
 * Duration: 10 Weeks
 * Classes: Friday  (1 – 3 PM)
-* Starts: 1 April.
-* Ends: 31 May
-* ZOOM Link Classes: TBD
-
-## Youtube Videos
-[Class Videos Playlist](https://www.youtube.com/playlist?list=PLqCuMQTwnIP99CrzdPEroGhdAhzVfvWgR)
+* Starts: 28 March.
+* Ends: 30 May
+* ZOOM Link Classes: https://itesm.zoom.us/j/82721497924?pwd=XvXad92JST47aiGlHKlJ0wyDJ20Ua2.1
+    - Meeting ID: 827 2149 7924
+    - Passcode: MCR2
 
 ## Live Sessions (Recordings)
- TBD
- 
+[Class Videos Playlist](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/Eu4aJjOc0RBLs1J1edCuq-QBmOQsTwPm0lTtEs3sdNfCmw?e=yCfjUG)
+
+
 ## General Requirements
 General requirements. Please be aware that a set of requirements especific for each session will be shown in each session subsection (Some items may be repeated).
 * Computer with access to Zoom (online classes).
-* Computer with Ubuntu 20.04 or 18.04 and ROS Noetic or Melodic, respectively.
+* Computer with Ubuntu 22.04 ROS2 Humble.
 * Knowledge of ROS.
 * Knowledge of Windows. 
 * Basic knowledge of Ubuntu (recommended).
 * Basic understanding of robotics (recommended).
 * Access to a Puzzlebot Jetson/Lidar Edition. 
 
-## Course Diagram
-![image](https://user-images.githubusercontent.com/67285979/228271953-f19b70f2-d3a7-4691-b3b7-13f8e8d14dd0.png)
-
-  
-## NVIDIA Jetson MCR2 Image
-[NVIDIA Jetson Image](https://manchesterrobotics-my.sharepoint.com/:u:/g/personal/mario_mtz_manchester-robotics_com/EULUFcH4zMRBpKiQNjlbPkUBMxqJM5yelvt78aG4sVINGQ?e=90YlL4)
 
 ## Puzzlebot Firmware
-[Puzzlebot Firmware](https://github.com/ManchesterRoboticsLtd/Puzzlebot-information/tree/main/Puzzlebot/Puzzlebot%20Learning%20Kits/Puzzlebot%20Jetson%20Edition)
 
+*Update the firmware of the hackerboard in the following link
+
+* [Puzzleware](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/EuisZe1eG5xKvGpsFljJwUoBcYvHmaIm8q2_aM8XN5ETqw?e=p7kvBT)
+
+* Download the zip file.
+* Follow the instructions for your OS.
+
+## Puzzlebot Jetson Image
+* Install [Balena Etcher](https://etcher.balena.io/) to format and upload the following image to the micro SD card.
+* [Jetson image option 1](https://manchesterrobotics-my.sharepoint.com/:u:/g/personal/mario_mtz_manchester-robotics_com/EVMUSVxzaepInxdKvzXnhpQBlhEpad4ZZDCQylmIlI3PlQ?e=5eqEzd) 
+* [Jetson image option 2](https://www.dropbox.com/scl/fi/2ccqhr9g0u5rj15ysr93r/jetson_2gb_ubuntu20.zip?rlkey=5iq4ebmrf529t5t2jztprsvhp&dl=0)
 
 
 ## Weekly Sessions
 
   ### Week 1: Dynamical Systems
   This week will introduce the teaching team and the basics of dynamical systems.
+
   #### Session:
   * Course Introduction.
-  *	Dynamical Systems.
-  *	State space representations.
-  *	Linear and Nonlinear systems.
-  *	Discrete Time Systems.
+  *	Transforms in ROS2
+  *	URDF
+  *	Markers in ROS 2
 
+  **Activity** : Modelling
+  - Model a Drone in ROS 2
   
   **Mini challenge:** 
-  *	Model a nonlinear system in State Space using ROS and visualise it using RVIZ.
+  *	Model a Puzzlebot in ROS 2 and visualise it using RVIZ.
 
   **Requirements:** Computer with access to Zoom, Ubuntu 18.04 and ROS Melodic Installed (Full installation).
   
@@ -83,7 +90,7 @@ General requirements. Please be aware that a set of requirements especific for e
   *	Point-to-point navigation.
 
   **Mini challenge:** 
-  *	Model the Puzzlebot in ROS and Visualise it in RVIZ.
+  *	Model the kinematic model of the Puzzlebot in ROS and Visualise it in RVIZ.
   *	Move the robot using a point-to-point navigation strategy.
 
 
@@ -100,9 +107,7 @@ General requirements. Please be aware that a set of requirements especific for e
   *	Linearisation – Fundamentals
   
   **Mini challenge:**: 
-  * Linearise of a dynamical system and compare its behaviour with the original nonlinear real system.
-  *	Mobile robot linearisation.
-  *	Plot the confidence ellipsoid of a mobile robot. Use the multiple point navigation.
+  * Multi-robot plotting in ROS 2
   
   **Requirements:** Requirements of Session 1.
 
